@@ -1,0 +1,58 @@
+.container {
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-rows: 50px 20px 500px 50px;
+  grid-template-areas: 
+  "header header header header header"
+  "navbar navbar navbar navbar navbar"
+  "main main main main sidebar"
+  "footer footer footer footer footer";
+}
+
+
+.item-1 {
+  grid-area: header;
+  background-color: #199;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.item-2 {
+  grid-area: navbar;
+  background-color: #999;
+  text-align: center;
+}
+
+
+.item-3 {
+  grid-area: main;
+  background-color: #990044;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.item-4 {
+  grid-area: sidebar;
+  background-color: #fa0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.item-5 {
+  grid-area: footer;
+  background-color: #f09;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
