@@ -1,0 +1,11 @@
+.tiros-form-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.tiros-form-buttom {
+  height: 40px;
+  margin-top: 30px;
+} 

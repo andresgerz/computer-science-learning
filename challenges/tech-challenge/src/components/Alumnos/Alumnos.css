@@ -1,0 +1,12 @@
+.alumnos-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.alumnos-wrapper .item{
+  width: 280px;
+}

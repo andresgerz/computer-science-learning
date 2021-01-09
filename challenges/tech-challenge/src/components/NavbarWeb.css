@@ -1,0 +1,27 @@
+.navbar-wrapper ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: skyblue;
+}
+
+
+.navbar-wrapper ul li {
+  margin-left: 15px;
+}
+
+
+.username-wrapper {
+  display: flex;
+  justify-content: flex-end; 
+}
+
+
+.user-icon {
+  margin-left: 20px;
+}
+
+
+.username {
+  float: right;
+}
